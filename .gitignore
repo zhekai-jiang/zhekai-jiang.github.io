@@ -50,3 +50,5 @@ _config.dev.yml
 
 .jekyll-cache
 cv/cv.pages
+
+favicon*

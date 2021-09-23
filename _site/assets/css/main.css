@@ -49,11 +49,11 @@ h3 { font-size: 1.25rem; margin-top: 1.5rem; }
 
 h4, h5, h6 { font-size: 1rem; margin-top: 1rem; }
 
-p { margin-bottom: 1rem; margin-top: 0; }
+p { margin-bottom: 1rem; margin-top: 0; font-size: 0.9rem; }
 
 strong { color: #303030; }
 
-ul, ol, dl { margin-bottom: 1rem; margin-top: 0; }
+ul, ol, dl { margin-bottom: 1rem; margin-top: 0; font-size: 0.8rem; }
 
 dt { font-weight: bold; }
 

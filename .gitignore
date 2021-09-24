@@ -49,6 +49,6 @@ _config.dev.yml
 *.gem
 
 .jekyll-cache
-cv/cv.pages
+*cv.pages
 
 favicon*

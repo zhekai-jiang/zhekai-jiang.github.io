@@ -4,19 +4,27 @@ title: About
 sidebar_link: true
 ---
 
-<p class="message">
-  My blog is currently under construction with this new template!
-</p>
+<br/>
+
+I am currently a third-year, or U2, undergraduate student at McGill University, majoring in software engineering at the Department of Electrical and Computer Engineering. Meanwhile, I am a research assistant focusing on model-based software and systems engineering. I am also engaged in some teaching activities as a Tomlinson Engagement Awardee for Mentoring (TEAM Mentor or TEAMster) at MATH 133 Linear Algebra and Geometry and a grader at ECSE 321 Introduction to Software Engineering.
+
+My current interest lies mainly in the following three aspects:
+
+* **Software development and project management.** It is simply great fun to create new software of my own! Through a variety of courses and projects in the past years, I have been familiarized with common skills and practice in software engineering. I have experience with full-stack development, and have been exposed to different stages of software development, from requirement specification and development to validation and maintenance. In particular, I have been familar and comfortable with the agile project management pattern.
+* **Theory of computation and programming languages, automated reasoning, and model-based engineering.** This interest of mine was only discovered after I took a few relevant courses (Programming Languages and Paradigms, Theory of Computation, Model-Based Programming, and Discrete Structures). It is delighting for me to see the elegance of these theories and their relation to other seemingly unrelated areas such as system architecture, software validation, and even philosophy and art (Yes, I am reading *Gödel Escher Bach*).
+* **Interdisciplinary applications.** I have learned about and have experience with mathematical modeling and some numerical computing techniques at high school and during my visiting at the University of Hong Kong. I am now taking the course Applied Machine Learning to study more about this, after laying all the foundations such as linear algebra, calculus, differential equations, probability theory, and statistics. I also keep an eye on a few other areas I am interested in and could potentially link my knowledge of software engineering to, such as economics and finance (I took courses like Engineering Economy and McGill Personal Finance Essentials), music and acoustics (I took Physics of Music and am reading *Gödel Escher Bach*), and psychology (I studied Advanced Placement (AP) Psychology myself before entering McGill).
+
+I am actively seeking for opportunities of both internship in the industry and research in the academia related to computer science and software engineering. I do look forward to having more opportunities to cooperate with more people and apply my knowledge and skills to make some real contributions. For fuller and more detailed information, see below or my [2-page curriculum vitae in PDF format](cv/cv.pdf). Please do not hesitate to contact me on LinkedIn or via email as well!
 
 ## Table of Contents
 * [Education](#education)
-  * [Bachelor of Software Engineering, McGill University](#bachelor-of-software-engineering)
+  * [Bachelor of Software Engineering (B.S.E.), McGill University](#bachelor-of-software-engineering)
   * [Visiting, The University of Hong Kong](#visiting)
 * [Skills](#skills)
 * [Experience](#experience)
   * [Research Assistant, McGill University](#research-assistant)
   * [Tomlinson Engagement Awardee for Mentoring (a.k.a. TEAM Mentor or TEAMster), McGill University](#research-assistant)
-  * [Course Assistant -- Grader](#course-assistant--grader)
+  * [Course Assistant -- Grader, McGill University](#course-assistant--grader)
 * [Projects](#projects)
   * [Be My Chef](#be-my-chef)
   * [Pocket McGill](#pocket-mcgill)
@@ -27,7 +35,7 @@ sidebar_link: true
 
 ## Education
 
-### Bachelor of Software Engineering
+### [Bachelor of Software Engineering (B.S.E.)](https://www.mcgill.ca/study/2019-2020/faculties/engineering/undergraduate/programs/bachelor-software-engineering-bse-software-engineering)
 
 **McGill University**, Montréal, Canada   
 Sep 2019 -- May 2023 (Expected)   
@@ -125,13 +133,13 @@ Repository publicly available on GitHub: <https://github.com/McGill-ECSE321-Fall
 
 ### Kingdomino Application
 
-**Course Project of ECSE 223 Model-Based Programming**, Jan 2020 -- Apr 2020
+**Course Project of ECSE 223 Model-Based Programming**, Jan 2020 -- Apr 2020   
 **Collaborators**: Matthew Caccavelli, Ezra Gomolin, Ricky Liu, and Gregory Walfish
 * In a team of five, we developed a software with graphical user interface for the game Kingdomino, using object-oriented and behaviour-driven development in Java, following the model-view-controller pattern. The models were specified with Umple and Yakindu, and the entire project was managed using Git and GitHub.
 * I worked on the primary design for the domain model and state machine model, was responsible for verification features and part of the graphical user interface for the main gameplay, and helped with other team members’ issues and the merging of code throughout the development.
 
 ### The Best Hospital
-[**Finalist at the International Mathematical Modeling Challenge (IMMC 2018) International Contest**](http://istem.info/ueditor/php/upload/file/20180510/1525965614903123.pdf), Mar 2018 – Apr 2018   
+[**Finalist of the Greater Chine Region at the International Mathematical Modeling Challenge (IMMC 2018) International Contest**](http://istem.info/ueditor/php/upload/file/20180510/1525965614903123.pdf), Mar 2018 – Apr 2018   
 Published in journal *Maths, Physics, and Chemistry for Middle School Students*. Available on [China National Knowledge Infrastructure (CNKI)](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLASN2019&filename=ZLXY201812020&v=Mjc0NTExVDNxVHJXTTFGckNVUjdxZmJ1WnVGaW5oVTc3S1B5SFRkN0c0SDluTnJZOUhaSVI4ZVgxTHV4WVM3RGg=) (in Chinese only).   
 **Collaborators**: Ruijia Chen, Weijia Huang, Chuxiang Lin, and Ziqian Li (Teacher Advisor)
 * In a team of four, we developed a mathematical model that uses various factors to measure the quality of hospitals and determine the best hospital. We also wrote a memo that a person without much mathematical expertise or computing ability can use to choose a hospital.

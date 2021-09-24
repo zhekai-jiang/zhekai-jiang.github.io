@@ -43,17 +43,17 @@ h1, h2, h3, h4, h5, h6, .site-title { color: #313131; font-weight: 600; line-hei
 
 h1 { font-size: 2rem; }
 
-h2 { font-size: 1.5rem; margin-top: 1rem; }
+h2 { font-size: 1.4rem; margin-top: 1rem; }
 
-h3 { font-size: 1.25rem; margin-top: 1.5rem; }
+h3 { font-size: 1.15rem; margin-top: 1.5rem; }
 
 h4, h5, h6 { font-size: 1rem; margin-top: 1rem; }
 
-p { margin-bottom: 1rem; margin-top: 0; font-size: 0.9rem; }
+p { margin-bottom: 0.5rem; margin-top: 0; font-size: 0.85rem; }
 
 strong { color: #303030; }
 
-ul, ol, dl { margin-bottom: 1rem; margin-top: 0; font-size: 0.8rem; }
+ul, ol, dl { margin-bottom: 1rem; margin-top: 0em; font-size: 0.85rem; }
 
 dt { font-weight: bold; }
 
@@ -75,7 +75,7 @@ a[href^='#fn:'], a[href^='#fnref:'] { display: inline-block; font-weight: bold; 
 
 .footnotes { font-size: 85%; margin-top: 2rem; }
 
-.lead { font-size: 1.25rem; font-weight: 300; }
+.lead { font-size: 1.2rem; font-weight: 300; }
 
 a svg { fill: #268bd2; }
 
@@ -309,7 +309,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
 .home #sidebar > *:last-child { margin-bottom: 0.5rem; }
 
 /* ----------------------------------------------------------- Tablet / Desktop view ----------------------------------------------------------- */
-@media (min-width: 49rem) { body { flex-direction: row; min-height: 100vh; -webkit-overflow-scrolling: touch; overflow-y: auto; } body > * { -webkit-overflow-scrolling: touch; overflow-y: auto; } /* Undo mobile CSS */ #sidebar, .home #sidebar { text-align: left; width: 18rem; } #sidebar > *:last-child, .home #sidebar > *:last-child { margin-bottom: 0; } #sidebar { position: fixed; bottom: 0; left: 0; } #sidebar .site-title { font-size: 3.25rem; } #sidebar .site-title .back-arrow { display: none; } #sidebar p.lead, #sidebar header ~ * { display: block; } #sidebar header ~ nav { display: flex; } .index #sidebar { margin-bottom: 0; } .container { background: #fff; color: #515151; min-height: 100vh; padding: 4rem 4rem 0; margin-left: 18rem; } .container > header { color: #313131; margin: 0; } .container > header h1, .container > header h2 { color: inherit; } .container > header h1:last-child, .container > header h2:last-child { margin-bottom: 0.5rem; } .container > * { max-width: 38rem; padding: 0; } }
+@media (min-width: 49rem) { body { flex-direction: row; min-height: 100vh; -webkit-overflow-scrolling: touch; overflow-y: auto; } body > * { -webkit-overflow-scrolling: touch; overflow-y: auto; } /* Undo mobile CSS */ #sidebar, .home #sidebar { text-align: left; width: 18rem; } #sidebar > *:last-child, .home #sidebar > *:last-child { margin-bottom: 0; } #sidebar { position: fixed; bottom: 0; left: 0; } #sidebar .site-title { font-size: 3.25rem; } #sidebar .site-title .back-arrow { display: none; } #sidebar p.lead, #sidebar header ~ * { display: block; } #sidebar header ~ nav { display: flex; } .index #sidebar { margin-bottom: 0; } .container { background: #fff; color: #515151; min-height: 100vh; padding: 4rem 4rem 0; margin-left: 18rem; } .container > header { color: #313131; margin: 0; } .container > header h1, .container > header h2 { color: inherit; } .container > header h1:last-child, .container > header h2:last-child { margin-bottom: 0.5rem; } .container > * { /*max-width: 50rem;*/ padding: 0; } }
 
 /* ----------------------------------------------------------- Sidebar links + nav ----------------------------------------------------------- */
 #sidebar a { color: #fff; }

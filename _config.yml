@@ -7,7 +7,7 @@ title:            Zhekai Jiang
 tagline:          'Bachelor of Software Engineering (B.S.E.) Student, Research Assistant, TEAM Mentor & Grader @ McGill University'
 description:      '<a href="https://www.mcgill.ca/study/2019-2020/faculties/engineering/undergraduate/programs/bachelor-software-engineering-bse-software-engineering" target="_blank">Bachelor of Software Engineering (B.S.E.)</a> Student, Research Assistant, <a href="https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team" target="_blank">TEAM Mentor</a> & Grader @ <a href="https://www.mcgill.ca" target="_blank">McGill University</a>.'
 url:              https://zhekai-jiang.github.io
-baseurl:          '/'
+baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep

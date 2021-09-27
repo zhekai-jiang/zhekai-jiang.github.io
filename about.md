@@ -18,13 +18,13 @@ I am actively seeking for opportunities of both internship in the industry and r
 
 ## Table of Contents
 * [Education](#education)
-  * [Bachelor of Software Engineering (B.S.E.), McGill University](#bachelor-of-software-engineering)
+  * [Bachelor of Software Engineering (B.S.E.), McGill University](#bachelor-of-software-engineering-bse)
   * [Visiting, The University of Hong Kong](#visiting)
 * [Skills](#skills)
 * [Experience](#experience)
   * [Research Assistant, McGill University](#research-assistant)
-  * [Tomlinson Engagement Awardee for Mentoring (TEAM Mentor or TEAMster), McGill University](#research-assistant)
-  * ["Graduate" Student Assistant -- Grader, McGill University](#course-assistant--grader)
+  * [Tomlinson Engagement Awardee for Mentoring (TEAM Mentor or TEAMster), McGill University](#tomlinson-engagement-awardee-for-mentoring-aka-team-mentor-or-teamster)
+  * ["Graduate" Student Assistant -- Grader, McGill University](#graduate-student-assistant--grader)
 * [Projects](#projects)
   * [Be My Chef](#be-my-chef)
   * [Pocket McGill](#pocket-mcgill)

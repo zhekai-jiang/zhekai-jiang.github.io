@@ -75,7 +75,7 @@ a[href^='#fn:'], a[href^='#fnref:'] { display: inline-block; font-weight: bold; 
 
 .footnotes { font-size: 85%; margin-top: 2rem; }
 
-.lead { font-size: 1.2rem; font-weight: 300; }
+.lead { font-size: 1.15rem; font-weight: 300; }
 
 a svg { fill: #268bd2; }
 

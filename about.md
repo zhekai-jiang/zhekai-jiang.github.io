@@ -105,7 +105,8 @@ Sep 2021 -- Present
 ### Be My Chef
 
 **Morgan Stanley 2021 Code to Give MTL Hackathon**, Sep 2021   
-[Repository publicly available on GitHub](https://github.com/notanthony/BeMyChefPWA)   
+[Project presentation on BeMyApp, the platform for this hackathon](https://codetogive.bemyapp.com/#/projects/6147e69b880a5d002da2d2e6)   
+[Repository publicly available on GitHub](https://github.com/zhekai-jiang/BeMyChefPWA)   
 **Collaborators**: Anthony Zhao, Eric Zhang, Jessica Yang, Frédéric Pelletier, Jia Ming Wei, and Louis Waked (Team Mentor)
 * In a team of six, we analyzed requirements, identified features, designed software prototypes, developed functional components in React, and proposed recommendations on implementation and future work for a new software project of La Tablée des Chefs aimed at encouraging teenagers to create and share food recipes, learn about healthy eating, and encourage food sustainability.
 * I contributed to ideation of requirements, features, and prototypes; developed the page displaying information of recipes and a search-by-available-ingredients feature in JavaScript using React; helped compile texts and graphics for documentations on GitHub and the hackathon’s platform; and proposed recommendations for implementation.

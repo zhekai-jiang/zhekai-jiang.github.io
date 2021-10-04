@@ -25,13 +25,8 @@ I am actively seeking for opportunities of both internship in the industry and r
   * [Research Assistant, McGill University](#research-assistant)
   * [Tomlinson Engagement Awardee for Mentoring (TEAM Mentor or TEAMster), McGill University](#tomlinson-engagement-awardee-for-mentoring-aka-team-mentor-or-teamster)
   * ["Graduate" Student Assistant -- Grader, McGill University](#graduate-student-assistant--grader)
-* [Projects](#projects)
-  * [Be My Chef](#be-my-chef)
-  * [Pocket McGill](#pocket-mcgill)
-  * [Art Gallery System](#art-gallery-system)
-  * [Kingdomino Application](#kingdomino-application)
-  * [The Best Hospital](#the-best-hospital)
-  * [Education and Growth](#education-and-growth)
+* [Projects]({{site.baseurl}}/projects)
+  
 
 ## Education
 
@@ -41,16 +36,16 @@ I am actively seeking for opportunities of both internship in the industry and r
 Sep 2019 -- May 2023 (Expected)   
 * **Cumulative Grade Point Average**: 4.00 / 4.00   
 * **Course Highlights**
-  * **Software Engineering and Computer Science**: [Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223) (Top Performer), [Algorithms and Data Structures](https://www.mcgill.ca/study/2020-2021/courses/comp-251), [Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) (In Progress), [Software Requirements Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-326) (In Progress), [Computer Organization](https://www.mcgill.ca/study/2021-2022/courses/ecse-324) (In Progress)
+  * **Software Engineering and Computer Science**: [Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223) (Top Performer), [Algorithms and Data Structures](https://www.mcgill.ca/study/2020-2021/courses/comp-251), [Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) (In Progress), [Software Requirements Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-326) (In Progress), [Computer Organization](https://www.mcgill.ca/study/2021-2022/courses/ecse-324) (In Progress), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330) (In Progress)
   * **Mathematics**: [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240) (100%), [Probability and Statistics for Engineers](https://www.mcgill.ca/study/2020-2021/courses/ecse-205), [Ordinary Differential Equations for Engineers](https://www.mcgill.ca/study/2020-2021/courses/math-263), [Intermediate Calculus](https://www.mcgill.ca/study/2020-2021/courses/math-262)
   * **Economics and Finance**: [Engineering Economy](https://www.mcgill.ca/study/2020-2021/courses/facc-300), [McGill Personal Finance Essentials](https://mcgillpersonalfinance.com) (Non-Credit, Online), [Microeconomic Analysis and Applications](https://www.mcgill.ca/study/2020-2021/courses/econ-208), [Economics of the Environment](https://www.mcgill.ca/study/2019-2020/courses/econ-225)
   * **Languages and Communication**: [Communication in Engineering](https://www.mcgill.ca/study/2020-2021/courses/ccom-206), [Beginners’ French 1](https://www.mcgill.ca/study/2021-2022/courses/frsl-101) (In Progress)
   * **Other Personal Interdisciplinary Interests**: [Physics of Music](https://www.mcgill.ca/study/2019-2020/courses/phys-224), [Introduction to Psychology](https://www.mcgill.ca/study/2019-2020/courses/psyc-100) (Advanced Placement)
 * **Awards**
-  * **Dean’s Honour List** for ranking in the top 10% of the Faculty of Engineering.
-  * **Engineering Class of 1983 Scholarship** for my high academic standing and overall contribution to university life.
-  * **John V. Galley Scholarship** for my distinguished academic standing.
-  * **Rio Tinto–Richard Evans International Exchange Award** for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect.
+  * **Dean’s Honour List** for ranking in the top 10% of the Faculty of Engineering
+  * **Engineering Class of 1983 Scholarship** for my high academic standing and overall contribution to university life
+  * **John V. Galley Scholarship** for my distinguished academic standing
+  * **Rio Tinto–Richard Evans International Exchange Award** for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect
 
 ### Visiting
 
@@ -67,7 +62,7 @@ Jul 2018 -- Aug 2018
   * **Integrated Development Environments and Editors**: Eclipse, Android Studio, Visual Studio Code, Vim 
   * **Version Control, Collaboration, and Continuous Integration**: Git, GitHub, GitLab, Travis CI
   * **Numeric Computing**: MATLAB, Scilab
-  * **Frameworks**: Gradle, Spring Boot, Vue.js, React, Node.js, Express.js
+  * **Frameworks**: Gradle, Spring Boot, Vue.js, React, Node.js, Express.js, Flask
   * **Database Systems**: MongoDB, PostgreSQL
   * **Software Modelling**: Umple, UML Lab, Yakindu, Eclipse Modelling Framework 
   * **Miscellaneous**: JUnit, Heroku, Docker, Cucumber
@@ -102,55 +97,4 @@ Sep 2021 -- Present
 
 ## Projects
 
-### Be My Chef
-
-**Morgan Stanley 2021 Code to Give MTL Hackathon**, Sep 2021   
-[Project presentation on BeMyApp, the platform for this hackathon](https://codetogive.bemyapp.com/#/projects/6147e69b880a5d002da2d2e6)   
-[Repository publicly available on GitHub](https://github.com/zhekai-jiang/BeMyChefPWA)   
-**Collaborators**: Anthony Zhao, Eric Zhang, Jessica Yang, Frédéric Pelletier, Jia Ming Wei, and Louis Waked (Team Mentor)
-* In a team of six, we analyzed requirements, identified features, designed software prototypes, developed functional components in React, and proposed recommendations on implementation and future work for a new software project of La Tablée des Chefs aimed at encouraging teenagers to create and share food recipes, learn about healthy eating, and encourage food sustainability.
-* I contributed to ideation of requirements, features, and prototypes; developed the page displaying information of recipes and a search-by-available-ingredients feature in JavaScript using React; helped compile texts and graphics for documentations on GitHub and the hackathon’s platform; and proposed recommendations for implementation.
-
-### Pocket McGill
-
-**Major Group Project at the course CCOM 206 Communication in Engineering**, Mar 2021 – Apr 2021   
-**Collaborators**: Justin Legrand, Mohamed Amine El-Felsoufi, Ping Gu, Ramin Akhavan-Sarraf, and Sébastien Cantin
-* In a team of six, as an imaginary startup company, we compiled a business proposal to McGill University in both a written document and a live presentation. It involves a new one-stop mobile application for McGill students to conveniently access all services needed for their academic lives.
-* I served as a senior software engineer in the imaginary company, addressing details on the implementation of the application, including the system architecture and project management plans.
-
-### Art Gallery System
-
-**Course Project of ECSE 321 Introduction to Software Engineering**, Sep 2020 – Nov 2020   
-[Repository publicly available on GitHub](https://github.com/McGill-ECSE321-Fall2020/project-group-09)   
-**Collaborators**: Wen (Amelia) Cui, Linpei (Angelina) Duan, Zheyan Tu, and Tianyu Zhao   
-* In a team of five, we developed a software system, including the backend, a website, and an Android application, for an imaginary art gallery which was being impacted by the COVID-19 pandemic and transforming their business online. This will allow posting, browsing, promoting, and purchasing artwork remotely.
-* The project is primarily in Java, with Javascript, CSS, and HTML used for the web frontend. The backend and frontend website are deployed on Heroku respectively. We follow the scrum-based agile project management. The project is managed using Git and GitHub, and uses Travis CI for continuous integration.
-* During the development, I
-  * served as one of the primary designers of the domain model,
-  * implemented part of the business service layer and REST APIs along with respective unit testing and integration testing,
-  * implemented the web and Android frontend of the pages for account information and management (including viewing and updating information of purchases, uploaded art pieces, deliveries, and frequently used addresses),
-  * configured continuous integration with Travis CI and deployment of frontend website to Heroku,
-  * contributed to bug fixing throughout the development, and
-  * helped edit, manage, and organize the backlog and documentations on GitHub.
-
-### Kingdomino Application
-
-**Course Project of ECSE 223 Model-Based Programming**, Jan 2020 -- Apr 2020   
-**Collaborators**: Matthew Caccavelli, Ezra Gomolin, Ricky Liu, and Gregory Walfish
-* In a team of five, we developed a software with graphical user interface for the game Kingdomino, using object-oriented and behaviour-driven development in Java, following the model-view-controller pattern. The models were specified with Umple and Yakindu, and the entire project was managed using Git and GitHub.
-* I worked on the primary design for the domain model and state machine model, was responsible for verification features and part of the graphical user interface for the main gameplay, and helped with other team members’ issues and the merging of code throughout the development.
-
-### The Best Hospital
-[**Finalist of the Greater Chine Region at the International Mathematical Modeling Challenge (IMMC 2018) International Contest**](http://istem.info/ueditor/php/upload/file/20180510/1525965614903123.pdf), Mar 2018 – Apr 2018   
-Published in journal *Maths, Physics, and Chemistry for Middle School Students*. Available on [China National Knowledge Infrastructure (CNKI)](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLASN2019&filename=ZLXY201812020&v=Mjc0NTExVDNxVHJXTTFGckNVUjdxZmJ1WnVGaW5oVTc3S1B5SFRkN0c0SDluTnJZOUhaSVI4ZVgxTHV4WVM3RGg=) (in Chinese only).   
-**Collaborators**: Ruijia Chen, Weijia Huang, Chuxiang Lin, and Ziqian Li (Teacher Advisor)
-* In a team of four, we developed a mathematical model that uses various factors to measure the quality of hospitals and determine the best hospital. We also wrote a memo that a person without much mathematical expertise or computing ability can use to choose a hospital.
-* We were invited for a live presentation and oral defence at the regional final of Greater China.
-* I contributed to the overall design of the mathematical model, developed all the computer programs in MATLAB and C++, and edited part of the solution paper for the contest and subsequent publication.
-
-### Education and Growth
-[**Meritorious Winner at the International Mathematical Modeling Challenge (IMMC 2018) Regional Contest of Greater China**](http://istem.info/ueditor/php/upload/file/20180510/1525965614903123.pdf), Feb 2018   
-Published in journal *Mathematics Study and Research*. Available on [China National Knowledge Infrastructure (CNKI)](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=SXYG201912136&v=MDMwMzJUM3FUcldNMUZyQ1VSN3FmYnVadUZpbmhVcnZBTmpYU2FiRzRIOWpOclk1R1lvUjhlWDFMdXhZUzdEaDE=) (in Chinese only).   
-**Collaborators**: Ruijia Chen, Weijia Huang, Chuxiang Lin, and Ziqian Li (Teacher Advisor)
-* In a team of four, we developed an econometric model to predict China's economic growth in the next 20 years, evaluated the role of education in economic growth, and proposed suggestions on government policies.
-* I contributed to the overall design of the mathematical model, developed all the computer programs in MATLAB and C++, and edited part of the solution paper for the contest and subsequent publication.
+See the tab [Project Portfolio]({{site.baseurl}}/projects)

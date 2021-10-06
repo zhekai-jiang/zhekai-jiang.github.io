@@ -7,9 +7,9 @@ title: Project Portfolio
 
 * [À l'heure](#à-lheure) (Best AI for Commerce (Stonks) at MAIS Hacks 2021 by McGill Artificial Intelligence Society)
 * [Be My Chef](#be-my-chef) (Project at Morgan Stanley 2021 Code to Give MTL Hackathon)
-* [Pocket McGill](#pocket-mcgill) (Major Group Project at the course CCOM 206 Communication in Engineering)
-* [Art Gallery System](#art-gallery-system) (Course Project of ECSE 321 Introduction to Software Engineering)
-* [Kingdomino](#kingdomino) (Course Project of ECSE 223 Model-Based Programming)
+* [Pocket McGill](#pocket-mcgill) (Major Group Project in the course CCOM 206 Communication in Engineering)
+* [Artizon](#artizon) (Course Project in ECSE 321 Introduction to Software Engineering)
+* [Kingdomino](#kingdomino) (Course Project in ECSE 223 Model-Based Programming)
 * [The Best Hospital](#the-best-hospital) (Finalist of the Greater China Region at the International Mathematical Modeling Challenge (IMMC 2018) International Contest)
 * [Education and Growth](#education-and-growth) (Meritorious Winner at the International Mathematical Modeling Challenge (IMMC 2018) Regional Contest of Greater China)
 
@@ -38,15 +38,15 @@ title: Project Portfolio
 
 ## Pocket McGill
 
-**Major Group Project at the course CCOM 206 Communication in Engineering**, Mar 2021 – Apr 2021   
+**Major Group Project in the course CCOM 206 Communication in Engineering**, Mar 2021 – Apr 2021   
 
 **Collaborators**: Justin Legrand, Mohamed Amine El-Felsoufi, Ping Gu, Ramin Akhavan-Sarraf, and Sébastien Cantin
 * In a team of six, as an imaginary startup software engineering company, we compiled a business proposal to McGill University in both a written document and a live presentation. It involves a new one-stop mobile application for McGill students to conveniently access all services needed for their academic lives.
 * I served as a senior software engineer in the company, addressing details on the implementation of the application, including the system architecture and project management plans.
 
-## Art Gallery System
+## Artizon
 
-**Course Project of ECSE 321 Introduction to Software Engineering**, Sep 2020 – Nov 2020   
+**Course Project in ECSE 321 Introduction to Software Engineering**, Sep 2020 – Nov 2020   
 
 **Collaborators**: Wen (Amelia) Cui, Linpei (Angelina) Duan, Zheyan Tu, and Tianyu Zhao   
 
@@ -63,7 +63,7 @@ title: Project Portfolio
 
 ## Kingdomino
 
-**Course Project of ECSE 223 Model-Based Programming**, Jan 2020 -- Apr 2020   
+**Course Project in ECSE 223 Model-Based Programming**, Jan 2020 -- Apr 2020   
 
 **Collaborators**: Matthew Caccavelli, Ezra Gomolin, Ricky Liu, and Gregory Walfish
 * In a team of five, we developed a software with graphical user interface for the game Kingdomino, using object-oriented and behaviour-driven development in Java, following the model-view-controller pattern. The models were specified with Umple and Yakindu, and the entire project was managed using Git and GitHub.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Project Portfolio
+sidebar_link: true
 ---
 
 ## Table of Contents
@@ -90,6 +91,6 @@ Published in journal *Mathematics Study and Research*. Available on [China Natio
 * In a team of four, we developed an econometric model to predict China's economic growth in the next 20 years, evaluated the role of education in economic growth, and proposed suggestions on government policies.
 * I contributed to the overall design of the mathematical model, developed all the computer programs in MATLAB and C++, and edited part of the solution paper for the contest and subsequent publication.
 
-<script>
+<!-- <script>
   document.getElementById("projects-sidebar-link").classList.add("active")
-</script>
+</script> -->

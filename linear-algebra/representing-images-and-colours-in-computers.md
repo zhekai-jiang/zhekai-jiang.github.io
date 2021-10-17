@@ -68,7 +68,7 @@ How do we transform from RGB to grayscale? Note that $$(0, 0, 0)$$ is black and 
 
 **Weighted method, or luminosity method.** This method weighs red, green, and blue according to their wavelengths so that the grayscale picture will look nicer. A common formula is $$\text{Grayscale}  = 0.299R + 0.587G + 0.114B$$ [5].
 
-Now I have some questions for you to think of. Let's say the resulting grayscale value is $M$ and think of the RGB values as a vector $$\left[ \begin{matrix} R \\ G \\ B \end{matrix} \right]$$. Can you try to represent the two transformations above in terms of some matrices and vectors? Is this a linear transformation?
+Now I have some questions for you to think of. Let's say the resulting grayscale value is $$M$$ and think of the RGB values as a vector $$\left[ \begin{matrix} R \\ G \\ B \end{matrix} \right]$$. Can you try to represent the two transformations above in terms of some matrices and vectors? Is this a linear transformation?
 
 Furthermore, do you think this transformation can be "undone"? That is, if you have a greyscale code derived from some RGB code, can you figure out what the coloured image look like in RGB? Try to argue why or why not in an intuitive way. Also, what does this mean for the equation you had earlier? (Hint: Try to think of it as a system of linear equations.)
 
@@ -88,7 +88,7 @@ Feel free to discuss about your thoughts and questions about all those questions
 
 I wish to thank our instructor Prof. Rosalie Bélanger-Rioux for this great idea about linear transformations for colour spaces, which inspired me to complete this write-up. Also, I would like to thank my instructor in [COMP 250 – Introduction to Computer Science](https://mcgill.ca/study/2019-2020/courses/comp-250), [Prof. Michael Langer](http://cim.mcgill.ca/~langer), for sharing his materials for [COMP 557 – Fundamentals of Computer Graphics](http://cim.mcgill.ca/~langer/557.html) and giving me advice through email for this write-up. He also suggested that "homogeneous coordinates and projective geometry [both of which have actually been covered in MATH 133 already] are particularly useful and common."
 
-Of course, this write-up is far from exhaustive about the colour systems and computer graphics. If you are interested in those topics in computer graphics, feel free to take [COMP 557 – Fundamentals of Computer Graphics](https://mcgill.ca/study/2021-2022/courses/comp-557) or [ECSE 532 – Computer Graphics](https://mcgill.ca/study/2021-2022/courses/ecse-532) (which are actually the same course) in the future, check out materials on [Prof. Langer's website](http://www.cim.mcgill.ca/~langer/557.html), or explore anything else online!
+Of course, this write-up is far from exhaustive about the colour systems and computer graphics. If you are interested in those topics or others in computer graphics, feel free to take [COMP 557 – Fundamentals of Computer Graphics](https://mcgill.ca/study/2021-2022/courses/comp-557) or [ECSE 532 – Computer Graphics](https://mcgill.ca/study/2021-2022/courses/ecse-532) (which are actually the same course) in the future, check out materials on [Prof. Langer's website](http://www.cim.mcgill.ca/~langer/557.html), or explore anything else online!
 
 ## References
 

@@ -16,7 +16,7 @@ sidebar_link: true
 
 ## À l'heure
 
-**Winner of the Best AI for Commerce (Stonks) at MAIS Hacks 2021 hosted by McGill Artificial Intelligence Society**, Oct 2–3, 2021
+**Winner of the Best AI for Commerce (Stonks) at [MAIS Hacks 2021](https://mais-hacks-2021.devpost.com) hosted by McGill Artificial Intelligence Society**, Oct 2–3, 2021
 
 **Collaborators**: Junjian Chen, Xichong Ling, and Shichang Zhang
 
@@ -28,7 +28,7 @@ sidebar_link: true
 
 ## Be My Chef
 
-**Morgan Stanley 2021 Code to Give MTL Hackathon**, Sep 13–20, 2021   
+**[Morgan Stanley 2021 Code to Give MTL Hackathon](https://codetogive.bemyapp.com/)**, Sep 13–20, 2021   
 
 **Collaborators**: Anthony Zhao, Eric Zhang, Jessica Yang, Frédéric Pelletier, Jia Ming Wei, and Louis Waked (Team Mentor)
 
@@ -39,7 +39,7 @@ sidebar_link: true
 
 ## Pocket McGill
 
-**Major Group Project in the course CCOM 206 Communication in Engineering**, Mar 2021 – Apr 2021   
+**Major Group Project in the course [CCOM 206 Communication in Engineering](https://mcgill.ca/study/2020-2021/courses/ccom-206)**, Mar 2021 – Apr 2021   
 
 **Collaborators**: Justin Legrand, Mohamed Amine El-Felsoufi, Ping Gu, Ramin Akhavan-Sarraf, and Sébastien Cantin
 * In a team of six, as an imaginary startup software engineering company, we compiled a business proposal to McGill University in both a written document and a live presentation. It involves a new one-stop mobile application for McGill students to conveniently access all services needed for their academic lives.
@@ -47,7 +47,7 @@ sidebar_link: true
 
 ## Artizon
 
-**Course Project in ECSE 321 Introduction to Software Engineering**, Sep 2020 – Nov 2020   
+**Course Project in [ECSE 321 Introduction to Software Engineering](https://mcgill.ca/study/2020-2021/courses/ecse-321)**, Sep 2020 – Nov 2020   
 
 **Collaborators**: Wen (Amelia) Cui, Linpei (Angelina) Duan, Zheyan Tu, and Tianyu Zhao   
 
@@ -64,7 +64,7 @@ sidebar_link: true
 
 ## Kingdomino
 
-**Course Project in ECSE 223 Model-Based Programming**, Jan 2020 -- Apr 2020   
+**Course Project in [ECSE 223 Model-Based Programming](https://mcgill.ca/study/2019-2020/courses/ecse-223)**, Jan 2020 -- Apr 2020   
 
 **Collaborators**: Matthew Caccavelli, Ezra Gomolin, Ricky Liu, and Gregory Walfish
 * In a team of five, we developed a software with graphical user interface for the game Kingdomino, using object-oriented and behaviour-driven development in Java, following the model-view-controller pattern. The models were specified with Umple and Yakindu, and the entire project was managed using Git and GitHub.

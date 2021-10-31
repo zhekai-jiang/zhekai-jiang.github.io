@@ -10,3 +10,4 @@ In the Fall 2021 semester, I am a [Tomlinson Engagement Awardee for Mentoring (T
 
 * [Performing Gaussian Elimination Programmatically](performing-gaussian-elimination-programmatically)
 * [Representing Images and Colours in Computers](representing-images-and-colours-in-computers)
+* [How Computers Multiply HUGE Matrices](how-computers-multiply-huge-matrices)

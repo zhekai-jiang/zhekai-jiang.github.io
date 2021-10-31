@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      How Computers Multiply HUGE Matrices &middot; Zhekai Jiang
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/~zjiang27/assets/css/main.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/~zjiang27/favicon.png" />
+<link rel="shortcut icon" href="/~zjiang27/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/~zjiang27/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="page">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/~zjiang27/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Zhekai Jiang
+      </a>
+    </div>
+    <p class="lead"><a href="https://www.mcgill.ca/study/2019-2020/faculties/engineering/undergraduate/programs/bachelor-software-engineering-bse-software-engineering" target="_blank">Bachelor of Software Engineering (B.S.E.)</a> Student, Research Assistant, <a href="https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team" target="_blank">TEAM Mentor</a> & Grader @ <a href="https://www.mcgill.ca" target="_blank">McGill University</a></p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/~zjiang27/">Home</a>
+  
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link " id="page-link-About"
+          href="/~zjiang27/about.html">About</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+      <a class="page-link " id="page-link-Linear Algebra"
+          href="/~zjiang27/linear-algebra/">Linear Algebra</a>
+    
+  
+
+  
+    
+      <a class="page-link " id="page-link-Project Portfolio"
+          href="/~zjiang27/projects/">Project Portfolio</a>
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <!-- Optional additional links to insert in sidebar nav -->
+<!-- <a class="page-link" href="/~zjiang27/projects" id="projects-sidebar-link">Project Portfolio</a> -->
+<a class="custom-nav-link"
+   href="/~zjiang27/cv/cv.pdf">Curriculum Vitae (PDF)</a>
+</nav>
+
+
+  
+
+  <nav id="sidebar-icon-links">
+  <a id="github-link"
+     class="icon" title="GitHub" aria-label="GitHub"
+     href="https://github.com/zhekai-jiang">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" height="24" width="28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+  </a>
+  <a id="linkedin-link"
+     class="icon" title="LinkedIn" aria-label="LinkedIn"
+     href="https://linkedin.com/in/zkjiang">
+    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<path d="M6.5,4.9c0,1.1-0.9,2-2,2s-2-0.9-2-2c0-1.1,0.9-2,2-2S6.5,3.8,6.5,4.9z M6.5,8.4h-4v12.6h4V8.4z M12.8,8.4H8.9v12.6h3.9
+	v-6.6c0-3.7,4.8-4,4.8,0v6.6h3.9v-8c0-6.2-7-6-8.7-2.9C12.8,10.1,12.8,8.4,12.8,8.4z"/>
+</svg>
+
+  </a>
+
+  
+
+  <!--
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/~zjiang27/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+  -->
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; 2021.
+  <a href="/~zjiang27/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <header>
+  <!--
+
+-->
+  <h1 class="page-title">How Computers Multiply HUGE Matrices</h1>
+</header>
+<div class="content">
+  <script>
+  document.getElementById("page-link-Linear Algebra").classList.add("active")
+</script>
+
+<h2 id="introduction-computational-complexity-of-matrix-multiplication">Introduction: Computational Complexity of Matrix Multiplication</h2>
+
+<p>As you have learned and practiced matrix algebra, you may have been feeling that matrix multiplication could be extremely complex. It is okay to multiply \(2 \times 2\) or \(3 \times 3\) matrices by hand, but what about larger ones? Often in the real world, we would leave such a task to a computer, as there is a very clear and unambiguous algorithm for matrix multiplication. Today, there are a lot of cases where we would need to perform huge matrix-matrix or matrix-vector multiplications. In deep learning, for example, we could easily have millions of rows, each representing a data point, and tens or hundreds or thousands of columns, each representing a “characteristic” of the sample. This could be challenging even for a computer, and we will see why with some simple analysis of how complex matrix multiplication actually is.</p>
+
+<p>For simplicity, let’s assume we are multiplying two \(n \times n\) matrices \(A\) and \(B\), where</p>
+
+\[A = \left[ \begin{matrix}
+a_{1, 1} &amp; a_{1, 2} &amp; \cdots &amp; a_{1, n} \\
+a_{2, 1} &amp; a_{2, 2} &amp; \cdots &amp; a_{2, n} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+a_{n, 1} &amp; a_{n, 2} &amp; \cdots &amp; a_{n, n}
+\end{matrix} \right],
+B = \left[ \begin{matrix}
+b_{1, 1} &amp; b_{1, 2} &amp; \cdots &amp; b_{1, n} \\
+b_{2, 1} &amp; b_{2, 2} &amp; \cdots &amp; b_{2, n} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+b_{n, 1} &amp; b_{n, 2} &amp; \cdots &amp; b_{n, n}
+\end{matrix} \right]
+\text{, and }C = A \times B = \left[ \begin{matrix}
+c_{1, 1} &amp; c_{1, 2} &amp; \cdots &amp; c_{1, n} \\
+c_{2, 1} &amp; c_{2, 2} &amp; \cdots &amp; c_{2, n} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+c_{n, 1} &amp; c_{n, 2} &amp; \cdots &amp; c_{n, n}
+\end{matrix} \right].\]
+
+<p>Now let’s recall the procedure of matrix multiplication. No matter what view you have in your mind, try to convince yourself that what we are effectively doing is that, <strong>for each element \(c_{i, j}\) in \(C\), its value is given by the “dot product” of the \(i\)-th row of \(A\) and the \(j\)-th column of \(B\), i.e.,</strong></p>
+
+\[\boxed{c_{i, j} = a_{i, 1} b_{1, j} + a_{i, 2} b_{2, j} + \cdots + a_{i, n} b_{n, j}}.\]
+
+<p>Let’s have a closer look at the equation above. We have \(n\) pairs of values to multiply, and then we add all \(n\) products together, so there are \(2n\) operations involved. This is for one single value in \(C\)—there are a total of \(n \times n = n^2\) of them. So we have a magnitude of \(n^2 \times 2n = 2n^3\) arithmetic operations to perform. Within the computer, there might be much more low-level operations hidden in one single arithmetic operation, but for a high-level complexity analysis, they can be assumed to be approximately the same for each arithmetic operation. Then, this is literally just a constant we would multiply with \(2n^3\). In computer science, we tend to drop such constants along with the constant \(2\) and simply say that the <strong>asymptotic computational complexity</strong> is \(O(n^3)\), read “big-\(O\) of \(n\)-cubed”. Intuitively, this means that the number of “operations” involved grows “<em>like</em>” \(n^3\), and the exact coefficient in front of \(n^3\) doesn’t really matter that much when \(n\) is large. (A formal definition of this big-\(O\) notation, as well as two other similar ones, big-\(\Omega\) and big-\(\Theta\), will be introduced in some relevant computer science courses such as COMP 251 – Algorithms and Data Structures.)</p>
+
+<p>\(n^3\) actually blows up pretty quickly. Say a computer can perform \(10^7\) “average” arithmetic operations in one second. \(200^3\) is approaching a second, \(1000^3\) takes almost two minutes, and \(10000^3\) takes half an hour already. You can see how it grows for even larger matrices. This is why we really want some ways to optimize it, and the next few sections will introduce some relevant techniques.</p>
+
+<h2 id="block-matrices">Block Matrices</h2>
+
+<p>A very common technique we need to solve this problem is to divide a big matrix into <em>blocks</em>. Block matrices are not part of MATH 133 but are covered in section 2.3 of the textbook [1]. Intuitively, the idea is to divide the matrix into several parts, each of which can be viewed as a “sub”-matrix. For simplicity, in this write-up, we will only look at square matrices and leave out the more tricky cases. For example, we can divide a matrix</p>
+
+\[A = \left[ \begin{matrix} 1 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; 0 \\ 2 &amp; -1 &amp; 4 &amp; 2 \\ 3 &amp; 1 &amp; -1 &amp; 7 \end{matrix} \right]\]
+
+<p>into four blocks</p>
+
+\[A_{1,1} = \left[ \begin{matrix} 1 &amp; 0 \\ 0 &amp; 1 \end{matrix} \right], A_{1,2} = \left[ \begin{matrix} 0 &amp; 0 \\ 0 &amp; 0 \end{matrix} \right], A_{2,1} = \left[ \begin{matrix} 2 &amp; -1 \\ 3 &amp; 1 \end{matrix} \right], \text{ and } A_{2,2} = \left[ \begin{matrix} 4 &amp; 2 \\ -1 &amp; 7 \end{matrix} \right].\]
+
+<p>And now, we can write</p>
+
+\[A = \left[ \begin{matrix} A_{1,1} &amp; A_{1,2} \\ A_{2,1} &amp; A_{2,2} \end{matrix} \right].\]
+
+<p>That is the intuition for block matrices. In fact, you have already been exposed to the idea of block matrices, although this term was not used at that time. When we take a “row view” or “column view” of a matrix, i.e. viewing a matrix as something like \(\left[ \begin{matrix} \text{—} &amp; v_1 &amp; \text{—} \\ \text{—} &amp; v_2 &amp; \text{—} \\ &amp; \vdots &amp; \end{matrix} \right]\) or \(\left[ \begin{matrix} \mid &amp; \mid &amp;  \\ v_1 &amp; v_2 &amp; \dots \\ \mid &amp; \mid &amp; \end{matrix} \right]\), we are in fact dividing the matrix into blocks, where each block has a width or height of 1!</p>
+
+<p>Now let’s get back to our problem of matrix multiplication. Let’s say we have two \(4 \times 4\) matrices</p>
+
+\[A = \left[ \begin{matrix} a_{1,1} &amp; a_{1,2} &amp; a_{1,3} &amp; a_{1,4} \\ a_{2,1} &amp; a_{2,2} &amp; a_{2,3} &amp; a_{2,4} \\ a_{3,1} &amp; a_{3,2} &amp; a_{3,3} &amp; a_{3,4} \\ a_{4,1} &amp; a_{4,2} &amp; a_{4,3} &amp; a_{4,4} \end{matrix} \right] = \left[ \begin{matrix} A_{1,1} &amp; A_{1,2} \\ A_{2,1} &amp; A_{2,2} \end{matrix} \right] \text{ and } B = \left[ \begin{matrix} b_{1,1} &amp; b_{1,2} &amp; b_{1,3} &amp; b_{1,4} \\ b_{2,1} &amp; b_{2,2} &amp; b_{2,3} &amp; b_{2,4} \\ b_{3,1} &amp; b_{3,2} &amp; b_{3,3} &amp; b_{3,4} \\ b_{4,1} &amp; b_{4,2} &amp; b_{4,3} &amp; b_{4,4} \end{matrix} \right] = \left[ \begin{matrix} B_{1,1} &amp; B_{1,2} \\ B_{2,1} &amp; B_{2,2} \end{matrix} \right],\]
+
+<p>and we want to compute</p>
+
+\[C = A \times B = \left[ \begin{matrix} c_{1,1} &amp; c_{1,2} &amp; c_{1,3} &amp; c_{1,4} \\ c_{2,1} &amp; c_{2,2} &amp; c_{2,3} &amp; c_{2,4} \\ c_{3,1} &amp; c_{3,2} &amp; c_{3,3} &amp; c_{3,4} \\ c_{4,1} &amp; c_{4,2} &amp; c_{4,3} &amp; c_{4,4} \end{matrix} \right] = \left[ \begin{matrix} C_{1,1} &amp; C_{1,2} \\ C_{2,1} &amp; C_{2,2} \end{matrix} \right].\]
+
+<p>It turns out, as mentioned as Theorem 2.3.4 in the textbook [1], “the product AB can be computed by matrix multiplication using blocks as entries.” What this means is that we can do \(C_{1,1} = A_{1,1}B_{1,1} + A_{1.2}B_{2,1}\), \(C_{1,2} = A_{1,1}B_{2,1} + A_{1,2}B_{2,2}\), etc., just as the normal matrix multiplication—of course, the products are themselves (smaller) matrix multiplications again! You can try to verify this by calculating a few elements in \(C\) in terms of elements in \(A\) and \(B\) once using regular matrix multiplication and once using block matrix multiplication.</p>
+
+<p>This immediately gives us a fairly nice idea of calculating huge matrix multiplication. We could divide the two matrices into smaller blocks, feed different combinations of blocks to a few different computers, let them each calculate a block multiplication simultaneously, and finally put everything back together. The benefit is that we can use multiple “<em>distributed</em>” machines to perform some subtasks <em>in parallel</em>, utilizing the available computing power and saving the total time needed.</p>
+
+<h2 id="cannon-algorithm">Cannon Algorithm</h2>
+
+<p>The Cannon Algorithm does exactly that. I will adapt the material in [2] for illustration. Imagine that we have two \(3 \times 3\) block matrices</p>
+
+\[A = \left[ \begin{matrix} A_{1,1} &amp; A_{1,2} &amp; A_{1,3} \\ A_{2,1} &amp; A_{2,2} &amp; A_{2,3} \\ A_{3,1} &amp; A_{3,2} &amp; A_{3,3} \end{matrix} \right], B = \left[ \begin{matrix} B_{1,1} &amp; B_{1,2} &amp; B_{1,3} \\ B_{2,1} &amp; B_{2,2} &amp; B_{2,3} \\ B_{3,1} &amp; B_{3,2} &amp; B_{3,3} \end{matrix} \right] \text{, and } C = A \times B = \left[ \begin{matrix} C_{1,1} &amp; C_{1,2} &amp; C_{1,3} \\ C_{2,1} &amp; C_{2,2} &amp; C_{2,3} \\ C_{3,1} &amp; C_{3,2} &amp; C_{3,3} \end{matrix} \right].\]
+
+<p>For illustration, we would focus on the block \(C_{2, 3}\). We know that \(C_{2, 3} = A_{2, 1} \times B_{1, 3} + A_{2, 2} \times B_{2, 3} + A_{2, 3} \times B_{3, 3}\). The idea of Cannon Algorithm is that, we would keep “circular-shifting” the blocks so that, by adding the product of the blocks at position \((2,3)\) of \(A\) and \(B\) each time, we would get the correct \(C_{2, 3}\).</p>
+
+<p>To initialize, we would <em>skew</em> the matrices: For \(A\), we would keep the first row untouched, shift every block on the second row to the left by one block, and shift every block on the third row to the left by two blocks. For \(B\), we would keep the first column untouched, shift every block on the second column to the top by one block, and shift every block on the third column to the top by two blocks. We will then get</p>
+
+\[\left[ \begin{matrix} A_{1,1} &amp; A_{1,2} &amp; A_{1,3} \\ A_{2,2} &amp; A_{2,3} &amp; A_{2,1} \\ A_{3,3} &amp; A_{3,1} &amp; A_{3,2} \end{matrix} \right] \text{ and } \left[ \begin{matrix} B_{1,1} &amp; B_{2,2} &amp; B_{3,3} \\ B_{2,1} &amp; B_{3,2} &amp; B_{1,3} \\ B_{3,1} &amp; B_{1,2} &amp; B_{2,3} \end{matrix} \right].\]
+
+<p>Notice that, when we multiply the blocks at \((2,3)\) of both matrices, we have \(A_{2,1} \times B_{1,3}\), which is exactly the first term of \(C_{2,3}\). And similarly for other blocks.</p>
+
+<p>Then, at each subsequent iteration, we will shift every block in \(A\) one block to the left and every block in \(B\) one block to the top. At the next step, we have</p>
+
+\[\left[ \begin{matrix} A_{1,2} &amp; A_{1,3} &amp; A_{1,1} \\ A_{2,3} &amp; A_{2,1} &amp; A_{2,2} \\ A_{3,1} &amp; A_{3,2} &amp; A_{3,3} \end{matrix} \right] \text{ and } \left[ \begin{matrix} B_{2,1} &amp; B_{3,2} &amp; B_{1,3} \\ B_{3,1} &amp; B_{1,2} &amp; B_{2,3} \\ B_{1,1} &amp; B_{2,2} &amp; B_{3,3} \end{matrix} \right].\]
+
+<p>Again, if we look at the the blocks at \((2,3)\) of both matrices, we have \(A_{2,2} \times B_{2,3}\), which is exactly the second term of \(C_{2,3}\).</p>
+
+<p>We will do this shifting one more time to obtain the third term. Try to verify by yourself that this works! The same will hold for other blocks and this method can be generalized for block matrices of other dimensions.</p>
+
+<h2 id="strassens-algorithm">Strassen’s Algorithm</h2>
+
+<p>Using block matrices, there are many more algorithms that can help us perform matrix multiplication more efficiently. One I would introduce is the Strassen’s Algorithm which I saw in <a href="https://mcgill.ca/study/2021-2022/courses/comp-251">COMP 251 – Algorithms and Data Structures</a> [3]. This algorithm multiplies 2-by-2 blocks, but uses only 7 multiplications. (There are 11 additions and 7 subtractions, but they are way less expensive than multiplication.) I will not present the proof of its correctness as it might be way too complex, but the idea is to first set</p>
+
+<p>\(P_1 = A_{1,1} \times (B_{1,2} - B_{2,2})\),</p>
+
+<p>\(P_2 = (A_{1,1} + A_{1,2}) \times B_{2,2}\),</p>
+
+<p>\(P_3 = (A_{2,1} + A_{2,2}) \times B_{1,1}\),</p>
+
+<p>\(P_4 = A_{2,2} \times (B_{2,1} - B_{1,1})\),</p>
+
+<p>\(P_5 = (A_{1,1} + A_{2,2}) \times (B_{1,1} + B_{2,2})\),</p>
+
+<p>\(P_6 = (A_{1,2} - A_{2,2}) \times (B_{2,1} + B_{2,2})\),</p>
+
+<p>\(P_7 = (A_{1,1} - A_{2,1}) \times (B_{1,1} + B_{1,2})\),</p>
+
+<p>Then,</p>
+
+<p>\(C_{1,1} = P_5 + P_4 - P_2 + P_6\),</p>
+
+<p>\(C_{1,2} = P_1 + P_2\),</p>
+
+<p>\(C_{2,1} = P_3 + P_4\),</p>
+
+<p>\(C_{2,2} = P_1 + P_5 - P_3 - P_7\).</p>
+
+<p>It can be proved by what is called the Master Theorem that the time complexity of Strassen’s Algorithm is \(O(n^{\log_2 7})\), or approximately \(O(n^{2.81})\), which is smaller than \(O(n^3)\). Therefore, Strassen’s Algorithm not only allows us to multiply matrices in parallel, but also makes matrix multiplication less complex overall.</p>
+
+<h2 id="acknowledgements-and-further-references">Acknowledgements and Further References</h2>
+
+<p>Hopefully, through this write-up, you have gained some intuitive understanding of how complex huge matrix multiplications are and computers handle them. I have to admit that, as a third-year undergraduate student, I myself am not an expert in distributed systems and algorithms, and this write-up is far from exhaustive for those matrix multiplication algorithms. Having a look further at the resources I referenced might be helpful if you are interested. And, for computer science or electrical/computer/software engineering students, you will see more about divide-and-conquer and computational complexity in <a href="https://mcgill.ca/study/2021-2022/courses/comp-251">COMP 251 – Algorithms and Data Structures</a>, and there would likely be many more similar parallel/distributed algorithms in relevant courses like <a href="https://mcgill.ca/study/2021-2022/courses/comp-512">COMP 512 – Distributed Systems</a> and <a href="https://mcgill.ca/study/2021-2022/courses/ecse-420">ECSE 420 – Parallel Computing</a>.</p>
+
+<h2 id="references">References</h2>
+
+<p>[1] W. K. Nicholson. <em>Linear Algebra with Applications.</em> 2021-A. Lyryx Learning Inc., 2021. [E-book]. Available: <a href="https://lyryx.com/linear-algebra-applications/">https://lyryx.com/linear-algebra-applications/</a>.</p>
+
+<p>[2] S. B. Baden. “CSE 260 Lecture 13 – Matrix Multiplication,” 2012. [Slides]. University of California, San Diego. Available: <a href="https://cseweb.ucsd.edu//classes/fa12/cse260-b/Lectures/Lec13.pdf">https://cseweb.ucsd.edu//classes/fa12/cse260-b/Lectures/Lec13.pdf</a>.</p>
+
+<p>[3] J. Waldispühl. “COMP 251: Divide-and-Conquer (2),” 2020. [Slides]. McGill University.</p>
+
+</div>
+<!--
+
+-->
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=”MathJax-script” async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

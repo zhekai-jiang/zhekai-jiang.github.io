@@ -10,11 +10,12 @@ I am currently a third-year, or U2, undergraduate student at McGill University, 
 
 My current interests lie mainly in the following three aspects:
 
-* **Software development and project management.** It is simply great fun to create new software of my own! Through a variety of courses and projects in the past years, I have been familiarized with common skills and practice in software engineering. I have experience with full-stack development, and have been exposed to different stages of software development, from requirement specification and development to validation and maintenance. In particular, I have been familar and comfortable with the agile project management pattern.
-* **Theory of computation and programming languages, formal logic and reasoning, and model-based engineering.** This interest of mine was only discovered after I took a few relevant courses ([Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240)). It is very delightful to see the elegance of these theories and their relation to other seemingly unrelated areas such as system architecture, software validation, security, and even philosophy and art (Yes, I am reading *Gödel Escher Bach*).
-* **Interdisciplinary applications.** I have learned about and have experience with mathematical modeling and some numerical computing techniques at high school and during my visiting at the University of Hong Kong. I am now taking the course [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) to study more about this, after laying all the foundations such as linear algebra, calculus, differential equations, probability theory, and statistics. As a TEAMster in MATH 133, I post [write-ups](linear-algebra) about interesting applications of linear algebra in other areas of mathematics, computer science, etc. I also keep an eye on a few other areas I am interested in and could potentially link my knowledge of software engineering to, such as economics and finance (I had courses like [Engineering Economy](https://www.mcgill.ca/study/2020-2021/courses/facc-300) and [McGill Personal Finance Essentials](https://mcgillpersonalfinance.com)); music and acoustics (I took [Physics of Music](https://www.mcgill.ca/study/2019-2020/courses/phys-224) and am reading *Gödel Escher Bach*); and physiology and psychology (I studied Advanced Placement (AP) Psychology myself before entering McGill).
+* **Model-based engineering, formal methods, and programming language theory.** Supervised by Prof. Dániel Varró, I am researching on design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation. I also took a few related courses such as ([Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240)). It is very delightful to see the elegance of these theories, their applications in design and validation, and even their relation and illusions to seemingly unrelated areas such as philosophy and art.
+* **Mathematical modelling, machine learning, and their interdisciplinary applications.** I have learned about and have experience with mathematical modelling and some numerical computing techniques at high school and during my visiting at the University of Hong Kong. I am now taking the course [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) to study more about this. I also keep an eye on a few other areas I am interested in and could potentially link my knowledge to, such as economics and finance, music and acoustics, and physiology and psychology.
 
-I am actively seeking for opportunities of both internship in the industry and research in the academia related to computer science and software engineering. I do look forward to having more opportunities to cooperate with more people and apply my knowledge and skills to make some real contributions. For full and more detailed information, see below or my [2-page curriculum vitae in PDF format](cv/cv.pdf). Please do not hesitate to contact me on LinkedIn or via email as well!
+* **Software development and project management.** It is great fun to create software of my own! Through a variety of courses and projects in the past years, I have been familiarized with common skills and practice in software engineering. I have experience with full-stack development, and have been exposed to different stages of software development, from requirement specification and development to validation and maintenance. In particular, I have been familar and comfortable with the agile project management pattern.
+
+I am actively seeking for opportunities of both research in the academia and internship in the industry related to computer science and software engineering. I do look forward to having more opportunities to cooperate with more people and apply my knowledge and skills to make some real contributions. For full and more detailed information, see below or my [curriculum vitae in PDF format](cv/cv.pdf).
 
 ## Table of Contents
 * [Education](#education)
@@ -55,6 +56,33 @@ Jul 2018 -- Aug 2018
 * **Grade**: A+, 4.30 / 4.30
 * **Award of Excellence** for achieving distinction.
 
+## Experience
+
+### Research Assistant
+
+**Department of Electrical and Computer Engineering, McGill University**, Montréal, Canada   
+May 2021 -- Present   
+**Supervisor**: [Professor Dániel Varró](https://www.mcgill.ca/ece/daniel-varro)
+
+* Studying about model-based software and systems engineering, including design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation.
+* Developing a tool to visualize partial models and the process of model generation based on a novel specification language.
+* Developing a technique to solve and render model constraints.
+
+### [Tomlinson Engagement Awardee for Mentoring (a.k.a. TEAM Mentor or TEAMster)](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team)
+
+**[Tomlinson Project in University-Level Science Education (T-Pulse)](https://www.mcgill.ca/tpulse/), McGill University**, Montréal, Canada   
+Sep 2020 -- Apr 2021, Sep 2021 -- Present   
+* **[Fall 2021 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2021-2022/courses/math-133)**: Write extra reading materials and guiding questions on applications and relations of linear algebra to other areas of mathematics and computer science. Facilitate and moderate discussions on the course discussion board. The materials I have written are available in the tab [Linear Algebra](linear-algebra).
+* **[Winter 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321)**: Monitored the course discussion board and provided support for students on the semester-long full-stack group project (an application for an imaginary auto repair shop, including a backend, a website, and an Android application) and general course materials.
+* **[Fall 2020 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2020-2021/courses/math-133)**: Held weekly office hours at the virtual [$$ \vec{F}\text{Re}(z)\text{Ca} $$ (First-year Residence Cafeteria tutorial program)](https://www.mcgill.ca/ose/frezca) via Microsoft Teams.
+
+### "Graduate" Student Assistant -- Grader
+
+**Department of Electrical and Computer Engineering, McGill University**, Montréal, Canada   
+Sep 2021 -- Present
+* **[Fall 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-321)**: Graded design questions on user and system requirements elicitation, use case and activity modelling, domain modelling, database design, and object-relational mapping, in a midterm exam. Resulted in zero regrading requests.
+* **Note**: My job title is "*Graduate* Student Assistant" because this is typically done my graduate students, but I am an undergraduate student for sure!
+
 ## Skills
 * **Languages**: English (Fluent), French (Basic), Mandarin Chinese (Native)
 * **Programming and Scripting Languages**: Java, C, JavaScript, Python, C++, OCaml, Bash, HTML, CSS, ARMv7-Assembly
@@ -64,36 +92,10 @@ Jul 2018 -- Aug 2018
   * **Numeric Computing**: MATLAB, Scilab
   * **Frameworks**: Gradle, Spring Boot, Vue.js, React, Node.js, Express.js, Flask
   * **Database Systems**: MongoDB, PostgreSQL
-  * **Software Modelling**: Umple, UML Lab, Yakindu, Eclipse Modelling Framework 
+  * **Modelling Tools**: Umple, jUCMNav, UML Lab, Yakindu, Eclipse Modelling Framework 
   * **Miscellaneous**: JUnit, Heroku, Docker, Cucumber
 * **Operating Systems**: macOS, Windows, Unix, Linux
 * **Software Engineering Practice**: Object-oriented development, Model-based engineering, Behaviour-driven development, Test-driven development, Agile project management
-
-## Experience
-
-### Research Assistant
-
-**Department of Electrical and Computer Engineering, McGill University**, Montréal, Canada   
-May 2021 -- Present   
-**Supervisor**: [Professor Dániel Varró](https://www.mcgill.ca/ece/daniel-varro)
-
-* Studying about model-based software and systems engineering, including design space exploration, partial models, and languages for model specification and graph query.
-* Involved in an ongoing research project, developing an online platform that helps visualize partial models and the process of model generation based on a newly proposed specification language.
-
-### [Tomlinson Engagement Awardee for Mentoring (a.k.a. TEAM Mentor or TEAMster)](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team)
-
-**[Tomlinson Project in University-Level Science Education (T-Pulse)](https://www.mcgill.ca/tpulse/), McGill University**, Montréal, Canada   
-Sep 2020 -- Apr 2021, Sep 2021 -- Present   
-* **[Fall 2021 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2021-2022/courses/math-133)**: Write extra reading materials and guiding questions on real-world applications of linear algebra in different areas of mathematics, computer science, and software engineering. Facilitate and moderate relevant discussions on the course discussion board. The materials I have written are available in the tab [Linear Algebra](linear-algebra).
-* **[Winter 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321)**: Monitored the course discussion board and provided support for students on the semester-long full-stack group project (an application for an imaginary auto repair shop, including a backend, a website, and an Android application) and general course materials.
-* **[Fall 2020 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2020-2021/courses/math-133)**: Held weekly office hours at the virtual [$$ \vec{F}\text{Re}(z)\text{Ca} $$ (First-year Residence Cafeteria tutorial program)](https://www.mcgill.ca/ose/frezca) via Microsoft Teams.
-
-### "Graduate" Student Assistant -- Grader
-
-**Department of Electrical and Computer Engineering, McGill University**, Montréal, Canada   
-Sep 2021 -- Present
-* **[Fall 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-321)**: Grade a midterm exam about requirements elicitation, feature modelling, domain modelling, and database design.
-* **Note**: My job title is "*Graduate* Student Assistant" because this is typically done my graduate students, but I am an undergraduate student for sure!
 
 ## Projects
 

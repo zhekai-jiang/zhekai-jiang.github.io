@@ -10,7 +10,7 @@ I am currently a third-year, or U2, undergraduate student at McGill University, 
 
 My current interests lie mainly in the following three aspects:
 
-* **Model-based engineering, formal methods, and programming language theory.** Supervised by Prof. Dániel Varró, I am researching on design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation. I also took a few related courses such as ([Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240)). It is very delightful to see the elegance of these theories, their applications in design and validation, and even their relation and illusions to seemingly unrelated areas such as philosophy and art.
+* **Model-based engineering, formal methods, and programming language theory.** Supervised by Prof. Dániel Varró, I am researching on design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation. I also took a few related courses such as [Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240). It is very delightful to see the elegance of these theories, their applications in design and validation, and even their relation and illusions to seemingly unrelated areas such as philosophy and art.
 * **Mathematical modelling, machine learning, and their interdisciplinary applications.** I have learned about and have experience with mathematical modelling and some numerical computing techniques at high school and during my visiting at the University of Hong Kong. I am now taking the course [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) to study more about this. I also keep an eye on a few other areas I am interested in and could potentially link my knowledge to, such as economics and finance, music and acoustics, and physiology and psychology.
 
 * **Software development and project management.** It is great fun to create software of my own! Through a variety of courses and projects in the past years, I have been familiarized with common skills and practice in software engineering. I have experience with full-stack development, and have been exposed to different stages of software development, from requirement specification and development to validation and maintenance. In particular, I have been familar and comfortable with the agile project management pattern.
@@ -54,7 +54,7 @@ Sep 2019 -- May 2023 (Expected)
 Jul 2018 -- Aug 2018
 * **Course**: [Mathematical Laboratory and Modeling](https://hkumath.hku.hk/web/outreach/MATH1641-HKU-summer-institute-2018-HS.pdf)
 * **Grade**: A+, 4.30 / 4.30
-* **Award of Excellence** for achieving distinction.
+* **Award of Excellence** for achieving distinction
 
 ## Experience
 

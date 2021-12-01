@@ -52,3 +52,5 @@ _config.dev.yml
 *cv.pages
 
 favicon*
+
+_site*

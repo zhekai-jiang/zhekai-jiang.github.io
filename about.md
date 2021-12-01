@@ -10,8 +10,9 @@ I am currently a third-year, or U2, undergraduate student at McGill University, 
 
 My current interests lie mainly in the following three aspects:
 
-* **Model-based engineering, formal methods, and programming language theory.** Supervised by Prof. Dániel Varró, I am researching on design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation. I also took a few related courses such as [Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240). It is very delightful to see the elegance of these theories, their applications in design and validation, and even their relation and illusions to seemingly unrelated areas such as philosophy and art.
-* **Mathematical modelling, machine learning, and their interdisciplinary applications.** I have learned about and have experience with mathematical modelling and some numerical computing techniques at high school and during my visiting at the University of Hong Kong. I am now taking the course [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) to study more about this. I also keep an eye on a few other areas I am interested in and could potentially link my knowledge to, such as economics and finance, music and acoustics, and physiology and psychology.
+* **Model-based software engineering, formal methods, programming languages, and automated reasoning.** Supervised by [Prof. Dániel Varró](https://www.mcgill.ca/ece/daniel-varro), I am researching on design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation. I also took a few related courses such as [Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240). It is very delightful to see the elegance of these theories, their applications in system design and validation, and even their relation and illusions to seemingly unrelated areas such as philosophy and art.
+
+* **Mathematical modelling, machine learning, and their interdisciplinary applications.** I have learned about and have experience with mathematical modelling and some numerical computing techniques at high school and during my visiting at the University of Hong Kong. I am now taking a graduate-level course [Applied Machine Learning](https://www.mcgill.ca/study/2021-2022/courses/comp-551) to study more about this. I also keep an eye on a few other areas I am interested in and could potentially link my knowledge to, such as economics and finance, music and acoustics, and physiology and psychology.
 
 * **Software development and project management.** It is great fun to create software of my own! Through a variety of courses and projects in the past years, I have been familiarized with common skills and practice in software engineering. I have experience with full-stack development, and have been exposed to different stages of software development, from requirement specification and development to validation and maintenance. In particular, I have been familar and comfortable with the agile project management pattern.
 
@@ -66,25 +67,25 @@ May 2021 -- Present
 
 * Studying about model-based software and systems engineering, including design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation.
 * Developing a tool to visualize partial models and the process of model generation based on a novel specification language.
-* Developing a technique to solve and render model constraints.
+* Developing a technique to solve and render models with constraints.
 
 ### [Tomlinson Engagement Awardee for Mentoring (a.k.a. TEAM Mentor or TEAMster)](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team)
 
 **[Tomlinson Project in University-Level Science Education (T-Pulse)](https://www.mcgill.ca/tpulse/), McGill University**, Montréal, Canada   
 Sep 2020 -- Apr 2021, Sep 2021 -- Present   
-* **[Fall 2021 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2021-2022/courses/math-133)**: Write extra reading materials and guiding questions on applications and relations of linear algebra to other areas of mathematics and computer science. Facilitate and moderate discussions on the course discussion board. The materials I have written are available in the tab [Linear Algebra](linear-algebra).
-* **[Winter 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321)**: Monitored the course discussion board and provided support for students on the semester-long full-stack group project (an application for an imaginary auto repair shop, including a backend, a website, and an Android application) and general course materials.
-* **[Fall 2020 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2020-2021/courses/math-133)**: Held weekly office hours at the virtual [$$ \vec{F}\text{Re}(z)\text{Ca} $$ (First-year Residence Cafeteria tutorial program)](https://www.mcgill.ca/ose/frezca) via Microsoft Teams.
+* **[Fall 2021 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2021-2022/courses/math-133)**: Write extra reading materials and guiding questions on applications and relations of linear algebra to other areas of mathematics and computer science. Facilitate and moderate discussions on the course discussion board. Writeups available in the tab [Linear Algebra](linear-algebra).
+* **[Winter 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321)**: Monitored the course discussion board and advised students on the semester-long full-stack group project (an application for an imaginary auto repair shop, including a backend, a website, and an Android application) as well as general course materials.
+* **[Fall 2020 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2020-2021/courses/math-133)**: Held weekly office hours at the virtual [$$ \vec{F}\text{Re}(z)\text{Ca} $$ (First-year Residence Cafeteria tutorial program)](https://www.mcgill.ca/ose/frezca).
 
 ### "Graduate" Student Assistant -- Grader
 
 **Department of Electrical and Computer Engineering, McGill University**, Montréal, Canada   
 Sep 2021 -- Present
-* **[Fall 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-321)**: Graded design questions on user and system requirements elicitation, use case and activity modelling, domain modelling, database design, and object-relational mapping, in a midterm exam. Resulted in zero regrading requests.
+* **[Fall 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-321)**: Graded design questions on user and system requirements elicitation, use case and activity modelling, domain modelling, database design, and object-relational mapping, in a midterm exam. Resulted in zero complaints or regrading requests.
 * **Note**: My job title is "*Graduate* Student Assistant" because this is typically done my graduate students, but I am an undergraduate student for sure!
 
 ## Skills
-* **Languages**: English (Fluent), French (Basic), Mandarin Chinese (Native)
+* **Languages**: English (Fluent -- C1/C2), French (Basic -- A1), Mandarin Chinese (Native)
 * **Programming and Scripting Languages**: Java, C, JavaScript, Python, C++, OCaml, Bash, HTML, CSS, ARMv7-Assembly
 * **Professional Software, Tools, and Frameworks**:
   * **Integrated Development Environments and Editors**: Eclipse, Android Studio, Visual Studio Code, Vim 

@@ -8,6 +8,7 @@ sidebar_link: true
 
 * [À l'heure](#à-lheure) (Best AI for Commerce (Stonks) at MAIS Hacks 2021 by McGill Artificial Intelligence Society)
 * [Be My Chef](#be-my-chef) (Project at Morgan Stanley 2021 Code to Give MTL Hackathon)
+* [Exploring Solutions for Spam Filtering](#exploring-solutions-for-spam-filtering) (Individual Research Paper Assignment in the course CCOM 206 Communication in Engineering)
 * [Pocket McGill](#pocket-mcgill) (Major Group Project in the course CCOM 206 Communication in Engineering)
 * [Artizon](#artizon) (Course Project in ECSE 321 Introduction to Software Engineering)
 * [Kingdomino](#kingdomino) (Course Project in ECSE 223 Model-Based Programming)
@@ -22,7 +23,7 @@ sidebar_link: true
 
 [Application](https://cs.mcgill.ca/~zjiang27/projects/alheure) \| [Devpost Presentation](https://devpost.com/software/smart-delay) \| [GitHub Repository](https://github.com/zhekai-jiang/alheure)
 
-* In a team of four, using almost 500,000 data points from the dataset "2019 Airline Delays w/Weather and Airport Detail" on Kaggle, we trained a decision tree model to predict whether a flight will delay based on five parameters the user enters. The model is persistently stored in a Flask-based backend server deployed on Heroku to which the frontend will make HTTP requests to perform prediction. The frontend is based on HTML and CSS, and the result of the prediction will be displayed after the user requests to predict.
+* In a team of four, using the dataset [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/threnjen/2019-airline-delays-and-cancellations) on Kaggle, we trained a decision tree model to predict whether a flight will delay based on five parameters the user enters. The model is persistently stored in a Flask-based backend server deployed on Heroku to which the frontend will make HTTP requests to perform prediction. The frontend is based on HTML and CSS, and the result of the prediction will be displayed after the user requests to predict.
 
 * Throughout the development, I contributed to the ideation of the project, developed and deployed the HTML frontend and Flask backend onto remote servers, and conducted the oral presentation and live demonstration.
 
@@ -36,6 +37,12 @@ sidebar_link: true
 
 * In a team of six, we analyzed requirements, identified features, designed software prototypes, developed functional components in React, and proposed recommendations on implementation and future work for a new software project of La Tablée des Chefs aimed at encouraging teenagers to create and share food recipes, learn about healthy eating, and encourage food sustainability.
 * I contributed to ideation of requirements, features, and prototypes; developed the page displaying information of recipes and a search-by-available-ingredients feature in JavaScript using React; helped compile texts and graphics for documentations on GitHub and BeMyApp; and proposed recommendations for implementation.
+
+## Exploring Solutions for Spam Filtering
+
+**Individual Research Paper Assignment in the course [CCOM 206 Communication in Engineering]((https://mcgill.ca/study/2020-2021/courses/ccom-206))**, Jan 2021 – Apr 2021
+
+* Through a literature survey, studied three methods of spam filtering: Bloom filter, support vector machine, and convolutional neural network. Analyzed and compared them in terms of complexity, accuracy, and adaptability. Proposed a solution using convolutional neural network, complemented with a Bloom filter as the initial step.
 
 ## Pocket McGill
 

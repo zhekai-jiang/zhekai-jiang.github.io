@@ -10,7 +10,7 @@ I am currently an undergraduate student at McGill University, majoring in softwa
 
 My current interests lie mainly in **model-based software engineering, formal methods, automated reasoning, and programming languages**. Supervised by [Prof. Dániel Varró](https://www.mcgill.ca/ece/daniel-varro), I research on design space exploration, languages for model specification and graph query, graph model generation, and model visualization and simulation, to be applied mostly in design and formal verifications of critical and cyber-physical systems. During my research internship at EPFL, supervised by [Prof. Christoph Koch](https://people.epfl.ch/christoph.koch) at the [DATA Analysis Theory and Applications (DATA) Laboratory](https://data.epfl.ch), I research on techniques to approximate results of queries in large-scale database systems with partially materialized high-dimensional data cubes. In the past semesters, I also took a few related courses such as [Programming Languages and Paradigms](https://www.mcgill.ca/study/2020-2021/courses/comp-302), [Theory of Computation](https://www.mcgill.ca/study/2021-2022/courses/comp-330), [Model-Based Programming](https://www.mcgill.ca/study/2019-2020/courses/ecse-223), and [Discrete Structures](https://www.mcgill.ca/study/2019-2020/courses/math-240).
 
-I am also interested in **industrial software development and project management**. It is always a pleasure to develop software to be used by other people and exert impacts. I am familiar with common skills and practice in software engineering. I have experience with full-stack development, and have been exposed to all different stages of software development, from requirement specification and development to validation and maintenance. In particular, I am familar and comfortable with the agile project management pattern.
+I am also interested in **industrial software development and project management**. It is always a pleasure to develop software to be used by other people and to make impacts. I am familiar with common skills and practice in software engineering. I have experience with full-stack development and have been exposed to the different stages of software engineering, from requirements elicitation and development to validation and maintenance. In particular, I am familar and comfortable with the agile project management pattern.
 
 I am actively seeking for opportunities of both research in the academia and internship in the industry related to computer science and software engineering. I do look forward to having more opportunities to cooperate with more people and apply my knowledge and skills to make some real contributions. For full and more detailed information, see below or my [curriculum vitae in PDF format](cv/cv.pdf).
 
@@ -102,7 +102,7 @@ Sep 2021 -- Present
 
 ## Skills
 * **Languages**: English (Proficient -- C1/C2), French (Basic -- A1/A2), Mandarin Chinese (Native)
-* **Programming, Scripting, and Query Languages**: Java, C, Python, JavaScript, TypeScript, C++, Bash, OCaml, SQL, Cypher, PigLatin, ARMv7-Assembly
+* **Programming, Scripting, and Query Languages**: Java, C, Python, JavaScript, TypeScript, Scala, OCaml, C++, Bash, SQL, Cypher, PigLatin, ARMv7-Assembly
 * **Professional Software, Tools, and Frameworks**:
   * **Integrated Development Environments and Editors**: Eclipse, IntelliJ IDEA, Android Studio, Visual Studio Code, Vim 
   * **Version Control, Collaboration, and Continuous Integration**: Git, GitHub, GitLab, Travis CI

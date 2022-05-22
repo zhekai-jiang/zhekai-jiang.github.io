@@ -51,24 +51,24 @@ Jul 2018 -- Aug 2018
 
 ## Honours and Awards
 
-* McGill [**Schull Yang International Experience Award**](https://www.mcgill.ca/iea/), as [**Summer Undergraduate Research Award in Engineering (SURE Award)**](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally), for participating in the EPFL Excellence Research Internship Program (ERIP)
+* McGill [**Schull--Yang International Experience Award**](https://www.mcgill.ca/iea/), as [**Summer Undergraduate Research Award in Engineering (SURE Award)**](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally), for participating in the EPFL Excellence Research Internship Program (ERIP)
 * EPFL **Scholarship of Excellence** for participating in the Excellence Research Internship Program (ERIP)
 * McGill [**Tomlinson Engagement Award for Mentoring (TEAM)**](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team) (4 times)
 * McGill **Dean’s Honour List** (2 times) for ranking in the top 10% of the Faculty of Engineering in an academic year
 * McGill **Engineering Class of 1983 Scholarship** for my high academic standing and overall contribution to university life
 * McGill **John V. Galley Scholarship** for my distinguished academic standing
-* McGill **Rio Tinto–Richard Evans International Exchange Award** for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect
+* McGill **Rio Tinto -- Richard Evans International Exchange Award** for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect
 * HKU **Award of Excellence** for achieving distinction
 
 ## Research Experiences
 
 ### [Excellence Research Intern](https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/)
 
-**DATA Analysis Theory and Applications (DATA) Laboratory, École polytechnique fédérale de Lausanne (EPFL)**, Lausanne, Switzerland   
+[**DATA Analysis Theory and Applications (DATA) Laboratory, École polytechnique fédérale de Lausanne (EPFL)**](https://data.epfl.ch), Lausanne, Switzerland   
 May 2022 -- Present   
 **Supervisor**: [Professor Christoph Koch](https://people.epfl.ch/christoph.koch)   
 **Supported by** [EPFL Excellence Research Internship Program (ERIP)](https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/) and [McGill Summer Undergraduate Research in Engineering (SURE) International Program](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally)   
-**Funded by** EPFL Scholarship of Excellence and [McGill Schull Yang International Experience Award](https://www.mcgill.ca/iea/)
+**Funded by** EPFL Scholarship of Excellence and [McGill Schull--Yang International Experience Award](https://www.mcgill.ca/iea/)
 
 * Researching on the use of iterative proportional fitting for query evaluation with partially materialized data cubes in Sudokube, a new online analytical processing (OLAP) database system, based on high-dimensional data cubes.
 

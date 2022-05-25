@@ -107,7 +107,7 @@ Oct 2021
   * **Integrated Development Environments and Editors**: Eclipse, IntelliJ IDEA, Android Studio, Visual Studio Code, Vim 
   * **Version Control, Collaboration, and Continuous Integration**: Git, GitHub, GitLab, Travis CI
   * **Frameworks**: Gradle, Spring Boot, Vue.js, React, Node.js, Express.js, Flask
-  * **Database Systems**: PostgreSQL, IBM DM2, Neo4j, MongoDB
+  * **Database Systems**: PostgreSQL, IBM DB2, Neo4j, MongoDB
   * **Numeric Computing**: MATLAB, Scilab
   * **Software Modelling Tools**: Umple, jUCMNav, UML Lab, Yakindu, VIATRA, Eclipse Modelling Framework 
   * **Miscellaneous**: JUnit, Heroku, Apache Pig, D3, Google Cloud Platform, Docker, Cucumber

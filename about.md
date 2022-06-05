@@ -51,14 +51,14 @@ Jul 2018 -- Aug 2018
 
 ## Honours and Awards
 
-* McGill [**Schull--Yang International Experience Award**](https://www.mcgill.ca/iea/), as [**Summer Undergraduate Research Award in Engineering (SURE Award)**](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally), for participating in the EPFL Excellence Research Internship Program (ERIP)
-* EPFL **Scholarship of Excellence** for participating in the Excellence Research Internship Program (ERIP)
-* McGill [**Tomlinson Engagement Award for Mentoring (TEAM)**](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team) (4 times)
+* McGill [**Schull--Yang International Experience Award**](https://www.mcgill.ca/iea/), as [**Summer Undergraduate Research Award in Engineering (SURE Award)**](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally) (CAD 2,500), for participating in the EPFL Excellence Research Internship Program (ERIP)
+* EPFL **Scholarship of Excellence** (CHF 5,000) for participating in the Excellence Research Internship Program (ERIP)
+* McGill [**Tomlinson Engagement Award for Mentoring (TEAM)**](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team) (4 times, CAD 300 each)
 * McGill **Dean’s Honour List** (2 times) for ranking in the top 10% of the Faculty of Engineering in an academic year
-* McGill **Engineering Class of 1983 Scholarship** for my high academic standing and overall contribution to university life
-* McGill **John V. Galley Scholarship** for my distinguished academic standing
-* McGill **Rio Tinto -- Richard Evans International Exchange Award** for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect
-* HKU **Award of Excellence** for achieving distinction
+* McGill **Engineering Class of 1983 Scholarship** (CAD 3,000) for my high academic standing and overall contribution to university life
+* McGill **John V. Galley Scholarship** (CAD 1,000) for my distinguished academic standing
+* McGill **Rio Tinto -- Richard Evans International Exchange Award** (CAD 2,000) for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect
+* HKU **Award of Excellence** (HKD 1,200) for achieving distinction
 
 ## Research Experiences
 
@@ -66,21 +66,32 @@ Jul 2018 -- Aug 2018
 
 [**DATA Analysis Theory and Applications (DATA) Laboratory, École polytechnique fédérale de Lausanne (EPFL)**](https://data.epfl.ch), Lausanne, Switzerland   
 May 2022 -- Present   
+
 **Supervisor**: [Professor Christoph Koch](https://people.epfl.ch/christoph.koch)   
 **Supported by** [EPFL Excellence Research Internship Program (ERIP)](https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/) and [McGill Summer Undergraduate Research in Engineering (SURE) International Program](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally)   
 **Funded by** EPFL Scholarship of Excellence and [McGill Schull--Yang International Experience Award](https://www.mcgill.ca/iea/)
 
-* Researching on algorithms to approximate query results using on partially materialized precomputed data cubes, for the project [Sudokube](https://infoscience.epfl.ch/record/292499), a new online analytical processing (OLAP) database system for data scientists. Currently researching, implementing, experimenting, and comparing variants of the iterative proportional fitting algorithm, based on probabilistic graphical models, to be integrated into the core query engine of Sudokube.
+**[Sudokube](https://infoscience.epfl.ch/record/292499): an online analytical processing (OLAP) database system based on high-dimensional data cubes**
+
+* Researching, implementing, and experimenting, in Scala, variants of iterative proportional fitting with probabilistic graphical models, as part of the core query engine, to efficiently approximate query results from partially materialized data cubes.
 
 ### Research Assistant
 
 **Critical Software Intensive Systems Group, McGill University**, Montréal, Canada   
 May 2021 -- Present   
+
 **Supervisor**: [Professor Dániel Varró](https://www.mcgill.ca/ece/daniel-varro)
 
-* Studying about model-based software and systems engineering, including design space exploration, model generation, partial models, and languages for model specification and graph query.
-* Developing part of a web-based service Refinery to visualize partial models and the process of model generation in real time, using React and D3, based on Problem, a novel specification language for consistent model generation based on partial models, applicable to automated synthesis of test data, feature modelling, etc. for critical systems and cyber-physical systems.
-* Developing and researching on an experimental technique based on force-directed layout to solve and graphically render models with constraints, potentially applicable to automatic generation of test cases for systems involving realistic graphical environments.
+**[Refinery](https://github.com/graphs4value/refinery): an efficient graph solver to generate consistent, well-formed models based on partial models**
+* Developing the online service to visualize partial models and the process of model generation in real time, based on [a novel specification language](http://www.jot.fm/contents/issue_2020_03/article12.html) Problem, using React, D3, and Xtext web editor supports, in TypeScript and Java.
+* Applicable to automated synthesis of test data and feature modelling for critical and cyber-physical systems.
+
+**Using force-directed graph layout to solve and visualize models with constraints**
+* Implemented a force-directed layout algorithm in Python to solve models with constraints and generate models of test cases involving objects in the surrounding environment in the context of autonomous driving.
+* Potentially applicable to automatic generation of test cases for systems involving similar realistic graphical environments.
+
+**Design space exploration**
+* Applied the VIATRA Design Space Exploration (VIATRA-DSE) Framework and the VIATRA Query Language (VQL) for connection planning at public transit hubs as a case study.
 
 ## Teaching Experiences
 
@@ -97,7 +108,7 @@ Sep 2020 -- Apr 2021, Sep 2021 -- Apr 2022
 
 **Department of Electrical and Computer Engineering, McGill University**, Montréal, Canada   
 Oct 2021
-* **[Fall 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-321)**: Graded design questions on user and system requirements elicitation, use case and activity modelling, domain modelling, database design, and object-relational mapping, in a midterm exam. Resulted in zero complaints or regrading requests.
+* **[Fall 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2021-2022/courses/ecse-321)**: Graded design questions on user and system requirements specification, use case and activity modelling, domain modelling, database design, and object-relational mapping, in a midterm exam. Resulted in zero complaints or regrading requests.
 * **Note**: My job title is "*Graduate* Student Assistant" because this is typically done my graduate students, but I am an undergraduate student for sure!
 
 ## Skills

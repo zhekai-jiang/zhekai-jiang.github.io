@@ -51,10 +51,11 @@ Jul 2018 -- Aug 2018
 
 ## Honours and Awards
 
-* McGill [**Schull--Yang International Experience Award**](https://www.mcgill.ca/iea/), as [**Summer Undergraduate Research Award in Engineering (SURE Award)**](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally) (CAD 2,500), for participating in the [EPFL Excellence Research Internship Program (ERIP)](https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/)
+* McGill **Dean's Honour List** (3 times) for ranking in the top 10% of the Faculty of Engineering in the 2019–2020, 2020–2021, and 2021–2022 academic years respectively
+* McGill **Hatch Scholarship in Engineering** (CAD 4,700) for my academic merit
+* McGill [**Schull--Yang International Experience Award**](https://www.mcgill.ca/iea/) / [**Summer Undergraduate Research Award in Engineering (SURE International Award)**](https://www.mcgill.ca/engineering/students/undergraduate/research/student-section/research-internationally) (CAD 2,500), for participating in the [EPFL Excellence Research Internship Program (ERIP)](https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/)
 * EPFL **Scholarship of Excellence** (CHF 4,800) for participating in the [Excellence Research Internship Program (ERIP)](https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/)
 * McGill [**Tomlinson Engagement Award for Mentoring (TEAM)**](https://www.mcgill.ca/tpulse/tomlinson-engagement-award-mentoring-team) (4 times, CAD 300 each)
-* McGill **Dean’s Honour List** (2 times) for ranking in the top 10% of the Faculty of Engineering in an academic year
 * McGill **Engineering Class of 1983 Scholarship** (CAD 3,000) for my high academic standing and overall contribution to university life
 * McGill **John V. Galley Scholarship** (CAD 1,000) for my distinguished academic standing
 * McGill **Rio Tinto -- Richard Evans International Exchange Award** (CAD 2,000) for my academic achievements, as well as leadership values of personal responsibility, integrity, accountability, and mutual respect

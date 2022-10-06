@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Zhekai Jiang
 tagline:          'Zhekai Jiang'
-description:      '<a href="https://www.mcgill.ca/study/2019-2020/faculties/engineering/undergraduate/programs/bachelor-software-engineering-bse-software-engineering" target="_blank">Bachelor of Software Engineering (B.S.E.)</a> Student @ McGill University | <a href="https://www.epfl.ch/education/international/en/coming-to-epfl/research-internships/">Excellence Research Intern</a> @ EPFL'
+description:      'Software Engineering Student, Research Assistant, and TEAM Mentor @ McGill University'
 url:              https://zhekai-jiang.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"

@@ -119,7 +119,7 @@ Sep 2020 -- Present
 * **[Winter 2022 -- COMP 302 Programming Languages and Paradigms](https://www.mcgill.ca/study/2021-2022/courses/comp-302)** (357 students): Hosted virtual office hours via Zoom.
 * **[Fall 2021 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2021-2022/courses/math-133)** (895 students): Authored extra reading materials on applications and relations of linear algebra to other areas of mathematics and computer science. Facilitated and moderated discussions on the course discussion board. Writeups available in the tab [Linear Algebra](linear-algebra).
 * **[Winter 2021 -- ECSE 321 Introduction to Software Engineering](https://www.mcgill.ca/study/2020-2021/courses/ecse-321)** (76 students): Monitored the course discussion board and advised students on the semester-long full-stack group project (an application for an imaginary auto repair shop, including a backend, a website, and an Android application) as well as general course materials.
-* **[Fall 2020 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2020-2021/courses/math-133)** (1081 students): Held weekly office hours at the virtual [$$ \vec{F}\text{Re}(z)\text{Ca} $$ (First-year Residence Cafeteria tutorial program)](https://www.mcgill.ca/ose/frezca).
+* **[Fall 2020 -- MATH 133 Linear Algebra and Geometry](https://www.mcgill.ca/study/2020-2021/courses/math-133)** (1081 students): Held office hours at the virtual [$$ \vec{F}\text{Re}(z)\text{Ca} $$ (First-year Residence Cafeteria tutorial program)](https://www.mcgill.ca/ose/frezca).
 
 ### Teaching Assistant -- Grader
 

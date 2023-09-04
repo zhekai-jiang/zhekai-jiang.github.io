@@ -12,5 +12,4 @@ In the Fall 2021 semester, I was a [Tomlinson Engagement Awardee for Mentoring (
 * [Representing Images and Colours in Computers](representing-images-and-colours-in-computers)
 * [How Computers Multiply HUGE Matrices](how-computers-multiply-huge-matrices)
 * [Generalizing Transformations](generalizing-transformations)
-* [Curve Fitting Using Interpolation](curve-fitting-using-interpolation)
 * [How Machines Learn](how-machines-learn)
